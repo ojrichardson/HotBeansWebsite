@@ -1,0 +1,86 @@
+body {
+    background-color: #dddddd !important;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Text', serif;
+   }
+
+li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.logo {
+    width: 9rem;
+    height: auto;
+    padding-top: 1rem;
+}
+
+.logo-text {
+    color: #707070;
+    line-height: 70px;
+    font-size: 45px;
+}
+
+.line {
+    width: 16rem;
+    border-bottom: 1px solid #707070;
+}
+
+.light-grey {
+    color: #707070;
+}
+
+.header {
+    margin: auto;
+    width: 50%;
+    padding: 10px; 
+}
+
+/* Used in banner image, to make it responsive */
+
+.banner_container {
+    position: relative;
+}
+
+.banner_container img {
+    position:relative;
+    padding-top: 1rem;
+    width: 100%;
+    height: 25rem;
+    text-align: center;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 20% 10%;
+    filter: blur(5px);
+    -webkit-filter: filter: blur(5px);
+}
+
+.banner_container h1 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%); /* iOS */
+    transform: translate(-50%, -50%);
+    /* Text Styling */
+    font-size: 100px;
+    color: white;
+}
+
+.banner_container span {
+    color: #ff6961;
+}
+
+
+
+
+/* Typed.JS Configuration */
+
