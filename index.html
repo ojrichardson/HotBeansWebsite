@@ -17,6 +17,9 @@
 
     <!-- Import Typed.JS-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <!-- Import FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 </head>
 
 <body id="bootstrap-overrides">
@@ -52,7 +55,9 @@
     </div>
 
     <div class="banner_container">
-        <img src="assets/img/code.jpg" alt="Responsive image">
+        <video playsinline autoplay muted loop poster="assets/img/code.jpg">
+            <source src="assets/vid/banner_video.webm" type="video/webm">
+        </video>
         <h1>We are website <span class="typewriter"></span></h1>
     </div>
 
@@ -70,18 +75,24 @@
         });
     </script>
 
-    <div class="col-xs-1" align="center">
+    <!-- Home page features-->
+    <div class="col-xs-1" align="center" style="color: #5C341C">
         <div class="container">
-            <div class="row">
-            <div class="col-sm">
-                One of three columns
-            </div>
-            <div class="col-sm">
-                One of three columns
-            </div>
-            <div class="col-sm">
-                One of three columns
-            </div>
+            <div class="features_container">
+                <div class="row">
+                    <div class="col-sm">
+                        <i class="fas fa-code fa-9x"></i>
+                        <span>We are professionals who know how to make an amazing website!</span>
+                    </div>
+                    <div class="col-sm">
+                        <i class="fas fa-smile-wink fa-9x"></i>
+                        <span>We have a 100% money back guarantee. If you're not happy, then we aren't!</span>
+                    </div>
+                    <div class="col-sm">
+                        <i class="fas fa-coffee fa-9x"></i>
+                        <span>Grab a cup of java. We do all the work for you, so you don't have to worry!</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
