@@ -71,7 +71,8 @@ li {
     -webkit-transform: translate(-50%, -50%); /* iOS */
     transform: translate(-50%, -50%);
     /* Text Styling */
-    font-size: 100px;
+    font-size: 100px; /* Size of text */
+    font-size: 4vw; /* Adding responsiveness */
     color: white;
 }
 
