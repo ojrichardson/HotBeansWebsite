@@ -3,6 +3,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
    }
    
 h1, h2, h3, h4, h5, h6 {
@@ -43,7 +44,7 @@ li {
     padding: 10px; 
 }
 
-/* Used in banner image, to make it responsive */
+/* Used in banner video, to make it responsive */
 
 .banner_container {
     position: relative;
@@ -69,7 +70,6 @@ li {
     -webkit-transform: translate(-50%, -50%); /* iOS */
     transform: translate(-50%, -50%);
     /* Text Styling */
-    font-size: 100px; /* Size of text */
     font-size: 4vw; /* Adding responsiveness */
     color: white;
 }
@@ -79,6 +79,11 @@ li {
 }
 
 /* Features Styling */
+
+.features_container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
 .features_container i {
     padding: 1.5rem;
@@ -90,3 +95,44 @@ li {
     font-size: 25px;
 }
 
+/* Companies */
+.companies_container {
+    padding-bottom: 2rem;
+}
+.companies_container img {
+    width: 10rem;
+    height: auto;
+    filter: opacity(70%);
+}
+
+.companies_container h3 {
+    font-family: 'Work Sans', sans-serif;
+    color: #3B2821;
+}
+
+/* Footer */
+#wrap {
+    min-height: 100%;
+    width: 100%;
+    background-color: #3B2821;
+    margin-top: 3rem;
+}
+  
+#main {
+    overflow: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+  
+.footer {
+    position: fixed;
+    margin-top: -5rem; /* negative value of footer height */
+    height: 5rem;
+    clear:both;
+    padding-top: 20px;
+} 
+
+/* Content */
+.content_container {
+    padding: 2rem;    
+}
