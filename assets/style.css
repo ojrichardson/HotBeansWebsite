@@ -25,6 +25,13 @@ li {
     padding-bottom: 1rem;
 }
 
+
+.center {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .logo {
     width: 9rem;
     height: auto;
@@ -36,7 +43,6 @@ li {
     line-height: 70px;
     font-size: 45px;
 }
-
 .line {
     width: 16rem;
     border-bottom: 1px solid #707070;
